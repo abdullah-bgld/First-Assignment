@@ -1,0 +1,386 @@
+/* universal tag */
+*{
+    font-family: "inter","san-serif" ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav section start*/
+
+.navbar {
+width: 85%;
+margin: 0 auto;
+height: 92px;
+display: flex;
+justify-content: center;
+
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.kv-logo{
+    display: flex;
+    justify-content: left;
+    margin-right:120px;
+    width: 139px;
+    height: 60px;
+}
+
+nav .nav-container .nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 500;}
+
+.nav-links a:hover {
+    color: #30B868;}
+
+.early-btn {
+    background-color: #008000;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;}
+
+.early-btn:hover{
+    background: orange;
+    transition:0.3s;
+}
+
+.header-btn:hover,.header-btn2:hover{
+background:orange;
+transition:0.3s;}
+
+/* Hero Section Start */
+
+.hero-section{
+background: url(../assets/hero-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+width:100%;
+height:100%;
+max-height: 674px;
+padding-bottom: 134px;
+color: white;
+}
+
+.badge {
+    color: green;
+    display: inline-flex;
+    align-items: center;
+    background-color: white; 
+    padding: 8px 12px;
+    border-radius: 50px;
+   margin-bottom: 16px;
+    font-size: 16px;
+    
+}
+
+.dot {
+    height: 8px;      
+    width: 8px;       
+    background-color: #30B868; 
+    border-radius: 50%; 
+    margin-right: 8px;
+    display: inline-block;
+    box-shadow: 0 0 5px #30B868;
+}
+
+.hero-section h1
+{
+    font-size: 72px;
+    font-weight: bold;
+}
+.hero-section p{
+    line-height: 24px;
+}
+
+.hero-content {
+    text-align: center;
+    padding-top:150px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.green-text {
+    color: #30B868;
+}
+.header-button{
+   display: flex;
+   justify-content: center;
+   gap: 16px;
+   padding:32px;
+}
+
+
+.header-btn{
+    color: rgba(255, 255, 255, 1);
+    background: #30B868;
+    border-radius: 4px;
+    border:none;
+    height: 52px;
+    width: 250px;
+    cursor: pointer;
+}
+
+
+.header-btn2{
+    color: rgba(255, 255, 255, 1);
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    height: 52px;
+    width: 200px;
+    cursor: pointer;}
+    
+    
+    /* Note Section Start */
+    .note-container{
+    max-width: 1360px;
+    width: 85%;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.note-text{
+    margin-top:10px;
+    margin-bottom:15px;
+    text-align: center;
+    max-height: 448px;}
+
+.note-text h1{
+color: #001931;
+text-align: center;
+font-weight: bold;
+font-size: 48px;}
+
+.note-text p{
+text-align: center;
+font-size: 16px;
+color: #627382;
+margin: 6px 0;
+        }
+
+.note-section p{
+font-size: 16px;
+font-weight: 400;
+color:#627382;}
+
+
+/* Card Section */
+.card-container{
+padding: 40px 0;
+display: flex;
+align-items: center;
+gap: 24px;
+}
+
+    
+.card-text {
+    height: 322px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.105);
+}
+
+.card-text h3{
+    font: 24px;
+    color: #001931;
+    font-weight: 600;
+    text-align: center;
+    margin: 16px 0;
+}
+.card-text p{
+    font: 16px;
+    text-align: center;
+}
+
+.card-container .card-text img{
+display: flex;
+align-items: center;
+width: 60px;
+height: 60px;
+background-color: #FF4D4D;
+border-radius: 100%;
+padding: 14px;}
+
+/* second brain section */
+#second-brain-section{
+    background-color: #FFFFFF;
+    padding: 120px;
+}
+
+.second-brain-container{
+    display: flex;
+    gap: 60px;
+    align-items: center;}
+
+.second-brain-container img{
+width: 600px;
+height:auto;}
+
+
+.second-brain-text{
+display: flex;
+flex-direction: column;
+align-items:start;
+padding-right:120px;
+gap: 16px;
+}
+
+.brain-text{
+    
+}
+
+.brain-text h6{
+padding-bottom: 16px;
+text-align: left;
+font-size: 16px;
+color: #30B868;
+font-weight: 500;
+}
+
+.brain-text h2{
+font-size: 48px;
+padding-bottom: 16px;
+}
+
+.brain-text p{
+    color: #627382;
+}
+
+.brain-list{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap:16px;
+}
+.brain-list li{
+
+    list-style: none;}
+
+.icon-green {
+    color: #30B868;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Early Section */
+
+#early-section{
+   
+    display: flex;}
+
+
+.early-container{
+    background: rgba(247, 246, 242, 1);
+    padding: 80px 0;
+    margin:0 auto 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 1360px;}
+
+
+.early-container h2{
+    font-size:40px;
+    color: rgba(0, 25, 49, 1);
+}
+
+.early-container p{
+    margin: 16px 0 24px;
+    text-align: center;
+    font-size: 16px;
+color: #627382;}
+
+.early-container .early-btn{
+    margin-bottom: 16px;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background-color:rgba(0, 25, 49, 1);
+    color: white;
+    padding: 60px 0 30px;
+}
+
+.footer-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.footer-logo img {
+    height: 60px;
+    width: 140px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+}
+
+.social-links span {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(250, 250, 250, 1);
+}
+
+.social-links .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links .icons a {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-links .icons a:hover {
+    color: #30B868;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+    color: rgba(229, 231, 235, 1);
+}
+
+.footer-bottom hr{
+    color:rgba(229, 231, 235, 1);
+    opacity: 20%;
+    margin-bottom: 30px;
+}
