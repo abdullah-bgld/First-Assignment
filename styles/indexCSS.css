@@ -1,9 +1,9 @@
 /* universal tag */
 *{
-    font-family: "inter","san-serif" ;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+font-family: "inter","san-serif" ;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 /* nav section start*/
@@ -18,24 +18,24 @@ justify-content: center;
 }
 
 .nav-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;}
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;}
 
 .kv-logo{
-    display: flex;
-    justify-content: left;
-    margin-right:120px;
-    width: 139px;
-    height: 60px;
+display: flex;
+justify-content: left;
+margin-right:120px;
+width: 139px;
+height: 60px;
 }
 
 nav .nav-container .nav-links ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 30px;
 }
 
 .nav-links a {
@@ -88,21 +88,19 @@ color: white;
     
 }
 
-.dot {
-    height: 8px;      
-    width: 8px;       
-    background-color: #30B868; 
-    border-radius: 50%; 
-    margin-right: 8px;
-    display: inline-block;
-    box-shadow: 0 0 5px #30B868;
+.dot {height: 8px;      
+width: 8px;       
+background-color: #30B868; 
+border-radius: 50%; 
+margin-right: 8px;
+display: inline-block;
+box-shadow: 0 0 5px #30B868;
 }
 
 .hero-section h1
-{
-    font-size: 72px;
-    font-weight: bold;
-}
+{font-size: 72px;
+font-weight: bold;}
+
 .hero-section p{
     line-height: 24px;
 }
