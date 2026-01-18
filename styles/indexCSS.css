@@ -39,24 +39,24 @@ gap: 30px;
 }
 
 .nav-links a {
-    text-decoration: none;
-    font-weight: 500;}
+text-decoration: none;
+font-weight: 500;}
 
 .nav-links a:hover {
-    color: #30B868;}
+color: #30B868;}
 
 .early-btn {
-    background-color: #008000;
-    color: white;
-    padding: 12px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;}
+background-color: #008000;
+color: white;
+padding: 12px 16px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-weight: bold;}
 
 .early-btn:hover{
-    background: orange;
-    transition:0.3s;
+background: orange;
+transition:0.3s;
 }
 
 .header-btn:hover,.header-btn2:hover{
@@ -77,14 +77,14 @@ color: white;
 }
 
 .badge {
-    color: green;
-    display: inline-flex;
-    align-items: center;
-    background-color: white; 
-    padding: 8px 12px;
-    border-radius: 50px;
-   margin-bottom: 16px;
-    font-size: 16px;
+color: green;
+display: inline-flex;
+align-items: center;
+background-color: white; 
+padding: 8px 12px;
+border-radius: 50px;
+margin-bottom: 16px;
+font-size: 16px;
     
 }
 
@@ -102,60 +102,60 @@ box-shadow: 0 0 5px #30B868;
 font-weight: bold;}
 
 .hero-section p{
-    line-height: 24px;
+line-height: 24px;
 }
 
 .hero-content {
-    text-align: center;
-    padding-top:150px;
+text-align: center;
+padding-top:150px;
 }
 
 .hero-content h1 {
-    font-size: 60px;
-    line-height: 1.2;
+font-size: 60px;
+line-height: 1.2;
 }
 
 .green-text {
-    color: #30B868;
+color: #30B868;
 }
 .header-button{
-   display: flex;
-   justify-content: center;
-   gap: 16px;
-   padding:32px;
+display: flex;
+justify-content: center;
+gap: 16px;
+padding:32px;
 }
 
 
 .header-btn{
-    color: rgba(255, 255, 255, 1);
-    background: #30B868;
-    border-radius: 4px;
-    border:none;
-    height: 52px;
-    width: 250px;
-    cursor: pointer;
+color: rgba(255, 255, 255, 1);
+background: #30B868;
+border-radius: 4px;
+border:none;
+height: 52px;
+width: 250px;
+cursor: pointer;
 }
 
 
 .header-btn2{
-    color: rgba(255, 255, 255, 1);
-    background: none;
-    border: 1px solid rgba(255, 255, 255, 1);
-    border-radius: 4px;
-    height: 52px;
-    width: 200px;
-    cursor: pointer;}
+color: rgba(255, 255, 255, 1);
+background: none;
+border: 1px solid rgba(255, 255, 255, 1);
+border-radius: 4px;
+height: 52px;
+width: 200px;
+cursor: pointer;}
     
     
-    /* Note Section Start */
-    .note-container{
-    max-width: 1360px;
-    width: 85%;
-    margin: 70px auto 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* Note Section Start */
+.note-container{
+max-width: 1360px;
+width: 85%;
+margin: 70px auto 0;
+display: flex;
+flex-direction: column;
+align-items: center;}
+
 .note-text{
     margin-top:10px;
     margin-bottom:15px;
