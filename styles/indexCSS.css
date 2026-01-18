@@ -191,25 +191,24 @@ gap: 24px;
 
     
 .card-text {
-    height: 322px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 70px 24px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.105);
+height: 322px;
+display:flex;
+flex-direction: column;
+align-items: center;
+padding: 70px 24px;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.105);
 }
 
 .card-text h3{
-    font: 24px;
-    color: #001931;
-    font-weight: 600;
-    text-align: center;
-    margin: 16px 0;
-}
+font: 24px;
+color: #001931;
+font-weight: 600;
+text-align: center;
+margin: 16px 0;}
+
 .card-text p{
-    font: 16px;
-    text-align: center;
-}
+font: 16px;
+text-align: center;}
 
 .card-container .card-text img{
 display: flex;
@@ -220,6 +219,7 @@ background-color: #FF4D4D;
 border-radius: 100%;
 padding: 14px;}
 
+
 /* second brain section */
 #second-brain-section{
     background-color: #FFFFFF;
@@ -227,9 +227,9 @@ padding: 14px;}
 }
 
 .second-brain-container{
-    display: flex;
-    gap: 60px;
-    align-items: center;}
+display: flex;
+gap: 60px;
+align-items: center;}
 
 .second-brain-container img{
 width: 600px;
@@ -241,20 +241,16 @@ display: flex;
 flex-direction: column;
 align-items:start;
 padding-right:120px;
-gap: 16px;
-}
+gap: 16px;}
 
-.brain-text{
-    
-}
 
 .brain-text h6{
 padding-bottom: 16px;
 text-align: left;
 font-size: 16px;
 color: #30B868;
-font-weight: 500;
-}
+font-weight: 500;}
+
 
 .brain-text h2{
 font-size: 48px;
@@ -262,31 +258,27 @@ padding-bottom: 16px;
 }
 
 .brain-text p{
-    color: #627382;
+color: #627382;
 }
 
-.brain-list{
+.brain-list{display: flex;
+flex-direction: column;
+margin-top: 40px;
+gap:16px;}
 
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    gap:16px;
-}
 .brain-list li{
-
-    list-style: none;}
+list-style: none;}
 
 .icon-green {
-    color: #30B868;
-    font-size: 20px;
-    margin-right: 10px;
+color: #30B868;
+font-size: 20px;
+margin-right: 10px;
 }
 
 /* Early Section */
 
 #early-section{
-   
-    display: flex;}
+display: flex;}
 
 
 .early-container{
